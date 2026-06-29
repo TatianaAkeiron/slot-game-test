@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #111827;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  align-items: flex-start;
+}
+
+#ui {
+  min-width: 220px;
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+button,
+select {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
